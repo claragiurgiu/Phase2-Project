@@ -32,7 +32,7 @@ To perform our inferential analysis, we created a multiple linear regression. Th
 
 - **Home Size**
 
-![img](./Images/Median Price per Sq Ft)
+![img](./Images/Median_Price_per_Sq_Ft)
 
 - **Proximity to Seattle**
 
@@ -40,7 +40,7 @@ To perform our inferential analysis, we created a multiple linear regression. Th
 
 - **Construction grade quality.**
 
-![img](./Images/Median Price per grade)
+![img](./Images/Median_Price_per_grade)
 
 
 ## Conclusions
