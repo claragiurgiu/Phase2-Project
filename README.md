@@ -6,6 +6,7 @@
 **Author**:
 
 Clara Giurgi
+<br>
 Stephanie Ciaccia
 
 ## Overview
