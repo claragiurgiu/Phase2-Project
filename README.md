@@ -14,8 +14,6 @@ Panda Real Estate is a residential real estate firm that prioritizes leveraging 
 
 ## Business Problem
 
-![add image](./images/addimage)
-
 As Panda Real Estate expands it's market to the greater Seattle Metropolitan area, we will be identifying the key variables that influence residential home prices in King County, Washington. By conducting a thorough exploration of the various variables that can impact home prices to ensure a comprehensive analysis of potential investment properties, we help inform investment teams on the residential housing market.
 
 ## Data
