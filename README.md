@@ -1,7 +1,7 @@
 
 # King County Residential Real Estate Anlaysis
 
-![img](./Images/seattle_readme_image.jpeg)
+![img](/Images/seattle_readme_image.jpeg)
 
 **Author**:
 
@@ -31,15 +31,15 @@ To perform our inferential analysis, we created a multiple linear regression. Th
 
 - **Home Size**
 
-![img](./Images/Median_Price_per_Sq_Ft.png)
+![img](/Images/Median_Price_per_Sq_Ft.png)
 
 - **Proximity to Seattle**
 
-![img](./Images/zip_code.png)
+![img](/Images/zip_code.png)
 
 - **Construction grade quality.**
 
-![img](./Images/Median_Price_per_grade.png)
+![img](/Images/Median_Price_per_grade.png)
 
 
 ## Conclusions
