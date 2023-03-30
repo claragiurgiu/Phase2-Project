@@ -1,11 +1,12 @@
 
 # King County Residential Real Estate Anlaysis
 
-![img](./Images/seattle_readme_image.jpeg)
+![img](/Images/seattle_readme_image.jpeg)
 
 **Author**:
 
 Clara Giurgi
+<br>
 Stephanie Ciaccia
 
 ## Overview
@@ -13,8 +14,6 @@ Stephanie Ciaccia
 Panda Real Estate is a residential real estate firm that prioritizes leveraging technology to enhance and optimize their real estate portfolio. Historically operating in the greater New York City Area, Panda Real Estate has decided to expand it's portfolio to the west cost, to include properties in King County, Washington.
 
 ## Business Problem
-
-![add image](./images/addimage)
 
 As Panda Real Estate expands it's market to the greater Seattle Metropolitan area, we will be identifying the key variables that influence residential home prices in King County, Washington. By conducting a thorough exploration of the various variables that can impact home prices to ensure a comprehensive analysis of potential investment properties, we help inform investment teams on the residential housing market.
 
@@ -32,15 +31,15 @@ To perform our inferential analysis, we created a multiple linear regression. Th
 
 - **Home Size**
 
-![img](./Images/Median Price per Sq Ft)
+![img](/Images/Median_Price_per_Sq_Ft.png)
 
 - **Proximity to Seattle**
 
-![img](./Images/zip_code)
+![img](/Images/zip_code.png)
 
 - **Construction grade quality.**
 
-![img](./Images/Median Price per grade)
+![img](/Images/Median_Price_per_grade.png)
 
 
 ## Conclusions
