@@ -32,15 +32,15 @@ To perform our inferential analysis, we created a multiple linear regression. Th
 
 - **Home Size**
 
-![img](./Images/Median_Price_per_Sq_Ft)
+![img](./Images/Median_Price_per_Sq_Ft.png)
 
 - **Proximity to Seattle**
 
-![img](./Images/zip_code)
+![img](./Images/zip_code.png)
 
 - **Construction grade quality.**
 
-![img](./Images/Median_Price_per_grade)
+![img](./Images/Median_Price_per_grade.png)
 
 
 ## Conclusions
