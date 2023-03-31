@@ -31,7 +31,7 @@ To perform our inferential analysis, we created a simple linear regression and a
 
 - **Home Size** - Increasing footage of home by approximately 964sq.ft increases the price by a factor of 1.227 or 22.7%.
 
-![img](/Images/median_ssft_vs_price.png)
+![img](/Images/median_sqft_vs_price.png)
 
 - **Proximity to Seattle** - Comparing to our baseline zip code 98001 which corresponds to Federal Way city, moving to zip codes that are north and with more proximity to Seattle and more uban cities such as Kirkland (98033) increases the sale price by 22.7%. Alternatively, staying close to Federal Way and away from Seattle, sale prices slightly decrease. As we can see by the comparison to zip code 98002 which corresponds to Auburn city which decreased price by 1.04%.
 
