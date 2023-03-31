@@ -25,20 +25,24 @@ As Panda Real Estate expands it's market to the greater Seattle Metropolitan are
 
 ## Methods
 
-To perform our inferential analysis, we created a simple linear regression and a multiple linear regression. This model was used to examine the relationship between the price, our dependent variable, and a variety of independent variables. 
+To perform our inferential analysis, we created a simple linear regression and a multiple linear regression. This model was used to examine the relationship between the price, our dependent variable, and a variety of independent variables. Our final model was a **multiple linear regression** with both numerical and categorical variables. Variables include:
 
-- **Model 1: Simple Regression** - For our simple regression model, we used using the living space (sq. ft) as the independent variable as it is the variable most correlated with price.
-
-- - square foot living space 
-
-- **Model 2: Multiple Linear Regression** For our second model, we included both numerical and categorical variables. Our top predictors are listed below:
-
-- - square foot living space
-- - construction grade 
-- - zip code 
-
+- square foot living space
+- construction grade 
+- zip code 
+- bedroom
+- bathroom
+- view
+- waterfront
+- mortgage rates
 
 ## Results
+
+From our model, we identified the top predictors that impact price:
+
+- square foot living space
+- zip code 
+- construction grade 
 
 ### Home Size
 - Increasing footage of home by approximately 964sq.ft increases the price by a factor of 1.227 or **22.7%**.
