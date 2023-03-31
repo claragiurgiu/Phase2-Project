@@ -19,25 +19,26 @@ As Panda Real Estate expands it's market to the greater Seattle Metropolitan are
 
 ## Data
 
--**King County Data** We used a dataset from [King County Open Data](https://gis-kingcounty.opendata.arcgis.com/) that includes over 30K home sales from 2021-2022. Variables inlcuded in this dataset include a variety of physical and environmental variables such as: $27,000 - $30,000
+- **King County Data** We used a dataset from [King County Open Data](https://gis-kingcounty.opendata.arcgis.com/) that includes over 30K home sales from 2021-2022. Variables inlcuded in this dataset include a variety of physical and environmental variables such as: $27,000 - $30,000
 
--**FRED Economic Data** This dataset was pulled from [Economic Research - Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MORTGAGE30US). In includes monthly mortage rates from the past 30 years.
+- **FRED Economic Data** This dataset was pulled from [Economic Research - Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MORTGAGE30US). In includes monthly mortage rates from the past 30 years.
 
 ## Methods
 
-To perform our inferential analysis, we created a simple linear regression and a multiple linear regression. This model was used to examine the relationship between the price, our dependent variable, and a variety of independent variables.
+To perform our inferential analysis, we created a simple linear regression and a multiple linear regression. This model was used to examine the relationship between the price, our dependent variable, and a variety of independent variables. The main variables we used in the model were:
+
 
 ## Results
 
-- **Home Size** - Increasing footage of home by approximately 964sq.ft increases the price by a factor of 1.227 or 22.7%.
+- **Home Size** - Increasing footage of home by approximately 964sq.ft increases the price by a factor of 1.227 or <b>22.7%<b>.
 
 ![img](/Images/median_sqft_vs_price.png)
 
-- **Proximity to Seattle** - When compared to our reference point of zip code 98001, Auburn, which is associated with the city of Federal Way, we observed that relocating to zip codes located to the north and closer to Seattle, as well as more urban cities like Kirkland (98033), results in a 22.7% increase in the sale price. Conversely, if one were to remain in close proximity to Federal Way and avoid Seattle, there would be a slight decrease in sale prices. This is evident from the comparison to zip code 98002, which corresponds to Auburn city and resulted in a price decrease of 1.04%.
+- **Proximity to Seattle** - When compared to our reference point of zip code 98001, Auburn, which is associated with the city of Federal Way, we observed that relocating to zip codes located to the north and closer to Seattle, as well as more urban cities like Kirkland (98033), results in a <b>22.7%<b> increase in the sale price. Conversely, if one were to remain in close proximity to Federal Way and avoid Seattle, there would be a slight decrease in sale prices. This is evident from the comparison to zip code 98002, which corresponds to Auburn city and resulted in a price decrease of <b>1.04%<b>.
 
 ![img](/Images/median_zip_code.png)
 
-- **Construction grade quality.** - We can see that construction grade quality can negatively affect prices. Lower construction quality is associated with a decrease in sale price, as we can see going from 10 to 7 decreases prices by 13.3%.
+- **Construction grade quality.** - It is evident that the quality of construction has a significant impact on prices. A decline in construction quality is linked to a reduction in sale prices. The transition from a construction grade of 10 to 7 results in a decrease of <b>13.3%<b> in prices.
 
 ![img](/Images/median_price_grade.png)
 
@@ -46,12 +47,13 @@ To perform our inferential analysis, we created a simple linear regression and a
 
 As a result of this analysis, three variables have been identified that can impact prices and should be taken into consideration when researching potential investment properties:
 
-- **Home Size** There is a direct correlation between the sq. ft. of the home and the sale price. Larger homes have higher sale prices. Increasing footage of home by approximately 964sq.ft increases the price by a factor of 1.227 or 22.7%.
+- **Home Size** There is a direct correlation between the sq. ft. of the home and the sale price. Larger homes have higher sale prices. Increasing footage of home by approximately 964sq.ft increases the price by a factor of 1.227 or <br>22.7%<br>.
+    
 - **Proximity to Seattle** Homes closer to Seattle have higher sale prices. Comparing to our baseline zip code 98001 which corresponds to Federal Way city, moving to zip codes that are north and with more proximity to Seattle and more uban cities such as Kirkland (98033) increases the sale price by 22.7%. Alternatively, staying close to Federal Way and away from Seattle, sale prices slightly decrease. As we can see by the comparison to zip code 98002 which corresponds to Auburn city which decreased price by 1.04% .<br>
 
 ![img](/Images/king_county_map.png)
 
-- **Construction grade quality.** We can see that construction grade quality can negatively affect prices. Lower construction quality is associated with a decrease in sale price, as we can see going from 10 to 7 decreases prices by 13.3%.
+- **Construction grade quality **It is evident that the quality of construction has a significant impact on prices. A decline in construction quality is linked to a reduction in sale prices. For instance, the transition from a construction grade of 10 to 7 results in a decrease of <br>13.3%<br> in prices.
 
 ### Next Steps
 
@@ -70,11 +72,6 @@ See the full analysis in the [Jupyter Notebook](https://github.com/claragiurgiu/
 ## Repository Structure
 
 ```
-├── code
-│   ├── 
-│   ├── 
-│   ├── 
-│   └── 
 ├── data
 ├── images
 ├── __init__.py
