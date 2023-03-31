@@ -54,7 +54,7 @@ From our model, we identified the top predictors that impact price:
 
 ![img](/Images/median_zip_code.png)
 
-### Construction Grade Quality
+### Construction Grade
 - It is evident that the quality of construction has a significant impact on prices. A decline in construction quality is linked to a reduction in sale prices. For instance, the transition from a construction grade of 10 to 7 results in a decrease of **13.3%** in prices.
 
 ![img](/Images/median_price_grade.png)
@@ -89,10 +89,11 @@ See the full analysis in the [Jupyter Notebook](https://github.com/claragiurgiu/
 ## Repository Structure
 
 ```
-├── data
-├─────
-├── images
-├── __init__.py
-├── README.md
-├── Presentation.pdf
-└── Final_Kings_County_Analysis.ipynb
+├── Data
+    ├──archive
+├── Images
+├── .gitignore
+├── King_County_Analysis.ipynb
+├── King_County_Analysis_Presentation.pdf
+├── LICENSE
+└── README.md
