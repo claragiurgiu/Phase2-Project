@@ -1,9 +1,8 @@
-
 # King County Residential Real Estate Anlaysis
 
-![img](/Images/seattle_readme_image.jpeg)
+![img](Images/seattle_readme_image.jpeg)
 
-**Author**:
+**Authors**:
 
 Clara Giurgi
 <br>
@@ -11,47 +10,70 @@ Stephanie Ciaccia
 
 ## Overview
 
-Panda Real Estate is a residential real estate firm that prioritizes leveraging technology to enhance and optimize their real estate portfolio. Historically operating in the greater New York City Area, Panda Real Estate has decided to expand it's portfolio to the west cost, to include properties in King County, Washington.
+Panda Real Estate is a residential real estate firm that prioritizes leveraging technology to enhance and optimize their real estate portfolio. Historically operating in the greater New York City Area, Panda Real Estate has decided to expand it's portfolio to the west coast, to include properties in King County, Washington.
 
 ## Business Problem
 
-As Panda Real Estate expands it's market to the greater Seattle Metropolitan area, we will be identifying the key variables that influence residential home prices in King County, Washington. By conducting a thorough exploration of the various variables that can impact home prices to ensure a comprehensive analysis of potential investment properties, we help inform investment teams on the residential housing market.
+As Panda Real Estate expands it's market to the greater Seattle Metropolitan area, we will be identifying the key variables that influence residential home prices in King County, Washington. By conducting a thorough exploration of the various variables that can impact home prices, we hope to inform internal investment teams on the residential housing market.
 
 ## Data
 
--**King County Data** We used a dataset from [King County Open Data](https://gis-kingcounty.opendata.arcgis.com/) that includes over 30K home sales from 2021-2022. Variables inlcuded in this dataset include a variety of physical and environmental variables such as:
+- **King County Data** - We used a dataset from [King County Open Data](https://gis-kingcounty.opendata.arcgis.com/) that includes over 30K home sales from 2021-2022. Variables inlcuded in this dataset include a variety of physical and environmental variables such as: $27,000 - $30,000
 
--**FRED Economic Data** This dataset was pulled from [Economic Research - Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MORTGAGE30US). In includes monthly mortage rates from the past 30 years.
+- **FRED Economic Data** - This dataset was pulled from [Economic Research - Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MORTGAGE30US). In includes monthly mortage rates from the past 30 years.
 
 ## Methods
 
-To perform our inferential analysis, we created a multiple linear regression. This model was used to examine the relationship between the price, our dependent variable, and a variety of independent variables.
+To perform our inferential analysis, we created a simple linear regression and a multiple linear regression. This model was used to examine the relationship between the price, our dependent variable, and a variety of independent variables. Our final model was a **multiple linear regression** with both numerical and categorical variables. Variables include:
+
+- square foot living space
+- construction grade 
+- zip code 
+- bedroom
+- bathroom
+- view
+- waterfront
+- mortgage rates
 
 ## Results
 
-- **Home Size**
+From our model, we identified the top predictors that impact price:
 
-![img](/Images/Median_Price_per_Sq_Ft.png)
+- square foot living space
+- zip code 
+- construction grade 
 
-- **Proximity to Seattle**
+### Home Size
+- Increasing footage of home by approximately 964 sq. ft. increases the price by a factor of 1.227 or **22.7%**.
 
-![img](/Images/zip_code.png)
+![img](Images/median_sqft_vs_price.png)
 
-- **Construction grade quality.**
+### Proximity to Seattle
+- When compared to our reference point of zip code 98001, Auburn, which is associated with the city of Federal Way, we observed that relocating to zip codes located to the north and closer to Seattle, as well as more urban cities like Kirkland (98033), results in a **14.6%** increase in the sale price. However, if one were to remain in close proximity to Federal Way and avoid Seattle, there would be a slight decrease in sale prices. This is evident from the comparison to zip code 98002, which corresponds to Auburn city and resulted in a price decrease of **1.04%**.
 
-![img](/Images/Median_Price_per_grade.png)
+![img](Images/median_zip_code.png)
+
+### Construction Grade
+- It is evident that the quality of construction has a significant impact on prices. A decline in construction quality is linked to a reduction in sale prices. For instance, the transition from a construction grade of 10 to 7 results in a decrease of **13.3%** in prices.
+
+![img](Images/median_price_grade.png)
 
 
 ## Conclusions
 
 As a result of this analysis, three variables have been identified that can impact prices and should be taken into consideration when researching potential investment properties:
 
-- **Home Size** There is a direct correlation between the sq. ft. of the home and the sale price. Larger homes have higher sale prices.
-- **Proximity to Seattle** Homes closer to Seattle have higher sale prices.
-- **Construction grade quality.** Lower construction quality is associated with a decrease in sale price.
+- **Home Size**: There is a direct positive correlation between home square foot living space and the sale price.
+    
+- **Proximity to Seattle**: Homes closer to Seattle have higher sale prices.
 
-### Next Steps
-To gain a more comprehensive understanding of changing home prices, it would be beneficial to analyze additional historical home sale data beyond the current dataset that only spans 18 months. Reviewing home sales over the past 5-10 years can provide insights into how the housing market has evolved.
+![img](Images/king_county_map.png)
+
+- **Construction Grade**: The quality of construction has a significant impact on prices.
+
+## Next Steps
+
+To gain a more comprehensive understanding of changing home prices, it would be beneficial to analyze additional historical home sale data beyond the current dataset that only spans 12 months. Reviewing home sales over the past 5-10 years can provide insights into how the housing market has evolved.
 
 In addition to historical data, conducting further analyses of environmental variables can enhance our understanding of residential home prices and should be taken into consideration. Some factors to consider include:
 
@@ -61,19 +83,16 @@ In addition to historical data, conducting further analyses of environmental var
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook]
+See the full analysis in the [Jupyter Notebook](https://https://github.com/claragiurgiu/Phase2-Project/blob/main/King_County_Analysis.ipynb)
 
 ## Repository Structure
 
 ```
-├── code
-│   ├── 
-│   ├── 
-│   ├── 
-│   └── 
-├── data
-├── images
-├── __init__.py
-├── README.md
-├── Presentation.pdf
-└── Final_Kings_County_Analysis.ipynb
+├── Data
+    ├──archive
+├── Images
+├── .gitignore
+├── King_County_Analysis.ipynb
+├── King_County_Analysis_Presentation.pdf
+├── LICENSE
+└── README.md
