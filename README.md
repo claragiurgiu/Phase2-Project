@@ -45,12 +45,12 @@ From our model, we identified the top predictors that impact price:
 - construction grade 
 
 ### Home Size
-- Increasing footage of home by approximately 964sq.ft increases the price by a factor of 1.227 or **22.7%**.
+- Increasing footage of home by approximately 964 sq. ft. increases the price by a factor of 1.227 or **22.7%**.
 
 ![img](/Images/median_sqft_vs_price.png)
 
 ### Proximity to Seattle
-- When compared to our reference point of zip code 98001, Auburn, which is associated with the city of Federal Way, we observed that relocating to zip codes located to the north and closer to Seattle, as well as more urban cities like Kirkland (98033), results in a **14.6** increase in the sale price. However, if one were to remain in close proximity to Federal Way and avoid Seattle, there would be a slight decrease in sale prices. This is evident from the comparison to zip code 98002, which corresponds to Auburn city and resulted in a price decrease of **1.04%**.
+- When compared to our reference point of zip code 98001, Auburn, which is associated with the city of Federal Way, we observed that relocating to zip codes located to the north and closer to Seattle, as well as more urban cities like Kirkland (98033), results in a **14.6%** increase in the sale price. However, if one were to remain in close proximity to Federal Way and avoid Seattle, there would be a slight decrease in sale prices. This is evident from the comparison to zip code 98002, which corresponds to Auburn city and resulted in a price decrease of **1.04%**.
 
 ![img](/Images/median_zip_code.png)
 
