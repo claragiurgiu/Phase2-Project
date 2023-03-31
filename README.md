@@ -55,7 +55,7 @@ From our model, we identified the top predictors that impact price:
 ![img](/Images/median_zip_code.png)
 
 ### Construction Grade Quality
-- It is evident that the quality of construction has a significant impact on prices. A decline in construction quality is linked to a reduction in sale prices. The transition from a construction grade of 10 to 7 results in a decrease of **13.3%** in prices.
+- It is evident that the quality of construction has a significant impact on prices. A decline in construction quality is linked to a reduction in sale prices. For instance, the transition from a construction grade of 10 to 7 results in a decrease of **13.3%** in prices.
 
 ![img](/Images/median_price_grade.png)
 
@@ -64,13 +64,13 @@ From our model, we identified the top predictors that impact price:
 
 As a result of this analysis, three variables have been identified that can impact prices and should be taken into consideration when researching potential investment properties:
 
-- **Home Size** There is a direct correlation between the sq. ft. of the home and the sale price. Larger homes have higher sale prices. Increasing footage of home by approximately 964sq.ft increases the price by a factor of 1.227 or **22.7%**
+**Home Size** There is a direct positive correlation between home square foot living space and the sale price.
     
-- **Proximity to Seattle** Homes closer to Seattle have higher sale prices
+**Proximity to Seattle** Homes closer to Seattle have higher sale prices
 
 ![img](/Images/king_county_map.png)
 
-- **Construction grade quality **It is evident that the quality of construction has a significant impact on prices. A decline in construction quality is linked to a reduction in sale prices. For instance, the transition from a construction grade of 10 to 7 results in a decrease of <br>13.3%<br> in prices.
+**Construction Grade** The quality of construction has a significant impact on prices 
 
 ## Next Steps
 
