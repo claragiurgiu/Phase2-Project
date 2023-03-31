@@ -47,12 +47,10 @@ To perform our inferential analysis, we created a simple linear regression and a
 As a result of this analysis, three variables have been identified that can impact prices and should be taken into consideration when researching potential investment properties:
 
 - **Home Size** There is a direct correlation between the sq. ft. of the home and the sale price. Larger homes have higher sale prices. Increasing footage of home by approximately 964sq.ft increases the price by a factor of 1.227 or 22.7%.
-<br>
-- **Proximity to Seattle** Homes closer to Seattle have higher sale prices. Comparing to our baseline zip code 98001 which corresponds to Federal Way city, moving to zip codes that are north and with more proximity to Seattle and more uban cities such as Kirkland (98033) increases the sale price by 22.7%. Alternatively, staying close to Federal Way and away from Seattle, sale prices slightly decrease. As we can see by the comparison to zip code 98002 which corresponds to Auburn city which decreased price by 1.04% .
+- **Proximity to Seattle** Homes closer to Seattle have higher sale prices. Comparing to our baseline zip code 98001 which corresponds to Federal Way city, moving to zip codes that are north and with more proximity to Seattle and more uban cities such as Kirkland (98033) increases the sale price by 22.7%. Alternatively, staying close to Federal Way and away from Seattle, sale prices slightly decrease. As we can see by the comparison to zip code 98002 which corresponds to Auburn city which decreased price by 1.04% .<br>
 
 ![img](/Images/king_county_map.png)
 
-<br>
 - **Construction grade quality.** We can see that construction grade quality can negatively affect prices. Lower construction quality is associated with a decrease in sale price, as we can see going from 10 to 7 decreases prices by 13.3%.
 
 ### Next Steps
