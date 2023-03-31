@@ -64,13 +64,13 @@ From our model, we identified the top predictors that impact price:
 
 As a result of this analysis, three variables have been identified that can impact prices and should be taken into consideration when researching potential investment properties:
 
-- **Home Size** There is a direct positive correlation between home square foot living space and the sale price.
+- **Home Size**:There is a direct positive correlation between home square foot living space and the sale price.
     
-- **Proximity to Seattle** Homes closer to Seattle have higher sale prices
+- **Proximity to Seattle**:Homes closer to Seattle have higher sale prices
 
 ![img](/Images/king_county_map.png)
 
-- **Construction Grade** The quality of construction has a significant impact on prices 
+- **Construction Grade**:The quality of construction has a significant impact on prices 
 
 ## Next Steps
 
