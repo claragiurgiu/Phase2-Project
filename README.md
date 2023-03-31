@@ -18,13 +18,14 @@ As Panda Real Estate expands it's market to the greater Seattle Metropolitan are
 
 ## Data
 
-- **King County Data** - We used a dataset from [King County Open Data](https://gis-kingcounty.opendata.arcgis.com/) that includes over 30K home sales from 2021-2022. Variables inlcuded in this dataset include a variety of physical and environmental variables such as: $27,000 - $30,000
+- **King County Data** - We used a dataset from [King County Open Data](https://gis-kingcounty.opendata.arcgis.com/) that includes over 30K home sales from 2021-2022 with prices ranging from $27,000 - $30,000,000. Variables inlcuded in this dataset include a variety of physical and environmental variables such as: home size, condition of home, location. 
 
-- **FRED Economic Data** - This dataset was pulled from [Economic Research - Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MORTGAGE30US). In includes monthly mortage rates from the past 30 years.
+
+- **FRED Economic Data** - This dataset was pulled from [Economic Research - Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/MORTGAGE30US). It includes monthly mortage rates from the past 30 years.
 
 ## Methods
 
-To perform our inferential analysis, we created a simple linear regression and a multiple linear regression. This model was used to examine the relationship between the price, our dependent variable, and a variety of independent variables. Our final model was a **multiple linear regression** with both numerical and categorical variables. Variables include:
+To perform our inferential analysis, we created a simple linear regression and multiple linear regressions to examine the relationship between the price, our dependent variable, and a variety of independent variables. Our final model was a **multiple linear regression** with both numerical and categorical variables. Variables include:
 
 - square foot living space
 - construction grade 
