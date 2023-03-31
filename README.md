@@ -4,7 +4,7 @@
 
 **Authors**:
 
-Clara Giurgi
+Clara Giurgiu
 <br>
 Stephanie Ciaccia
 
@@ -67,7 +67,9 @@ As a result of this analysis, three variables have been identified that can impa
     
 - **Proximity to Seattle**: Homes closer to Seattle have higher sale prices.
 
-![img](Images/king_county_map.png)
+<p align="center" width="100%">
+    <img width="33%" src=![img](Images/king_county_map.png)
+</p>
 
 - **Construction Grade**: The quality of construction has a significant impact on prices.
 
