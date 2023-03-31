@@ -25,7 +25,19 @@ As Panda Real Estate expands it's market to the greater Seattle Metropolitan are
 
 ## Methods
 
-To perform our inferential analysis, we created a simple linear regression and a multiple linear regression. This model was used to examine the relationship between the price, our dependent variable, and a variety of independent variables. The main variables we used in the model were:
+To perform our inferential analysis, we created a simple linear regression and a multiple linear regression. This model was used to examine the relationship between the price, our dependent variable, and a variety of independent variables. 
+
+- **Model 1: Simple Regression** - For our simple regression model, we used using the living space (sq. ft) as the independent variable as it is the variable most correlated with price.
+
+- price (dependent - logged)
+- square foot living space (scaled)
+
+- **Model 2: Multiple Linear Regression** For our second model, we included both numerical and categorical variables. Our top predictors are listed below:
+
+- price (dependent - logged) 
+- square foot living space (scaled)
+- construction grade (scaled)
+- zip code (scaled)
 
 
 ## Results
@@ -34,7 +46,7 @@ To perform our inferential analysis, we created a simple linear regression and a
 
 ![img](/Images/median_sqft_vs_price.png)
 
-- **Proximity to Seattle** - When compared to our reference point of zip code 98001, Auburn, which is associated with the city of Federal Way, we observed that relocating to zip codes located to the north and closer to Seattle, as well as more urban cities like Kirkland (98033), results in a <b>22.7%<b> increase in the sale price. Conversely, if one were to remain in close proximity to Federal Way and avoid Seattle, there would be a slight decrease in sale prices. This is evident from the comparison to zip code 98002, which corresponds to Auburn city and resulted in a price decrease of <b>1.04%<b>.
+- **Proximity to Seattle** - When compared to our reference point of zip code 98001, Auburn, which is associated with the city of Federal Way, we observed that relocating to zip codes located to the north and closer to Seattle, as well as more urban cities like Kirkland (98033), results in a <b>14.6<b> increase in the sale price. Conversely, if one were to remain in close proximity to Federal Way and avoid Seattle, there would be a slight decrease in sale prices. This is evident from the comparison to zip code 98002, which corresponds to Auburn city and resulted in a price decrease of <b>1.04%<b>.
 
 ![img](/Images/median_zip_code.png)
 
