@@ -85,7 +85,7 @@ In addition to historical data, conducting further analyses of environmental var
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://https://github.com/claragiurgiu/Phase2-Project/blob/main/King_County_Analysis.ipynb)
+See the full analysis in the [Jupyter Notebook](https://github.com/claragiurgiu/Phase2-Project/blob/main/King_County_Analysis.ipynb)
 
 ## Repository Structure
 
